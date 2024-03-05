@@ -24,6 +24,7 @@
 		justify-content: center; */
 		display: grid;
 		grid-template-columns: 2fr 1fr;
+		box-shadow: 2px 12px black;
 	}
 	
 
