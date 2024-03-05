@@ -1,0 +1,92 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+	background-color: rgb(97, 82, 63);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+header img{
+	margin-right: 20px;
+	border: 2px solid black;
+}
+.name{
+	color: white;
+}
+nav{
+	padding-top: 1px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(204, 204, 198);
+
+	
+}
+
+nav ul li a{
+	display: block;
+	padding: 4px 8px;
+	text-decoration: none;
+	text-align: center;
+
+}
+nav ul li a:hover{
+	background-color: rgb(97, 82, 63);
+	border: 3px solid rgb(191, 189, 186);
+	color: white;
+}
+.active{
+	background-color: rgb(97, 82, 63);
+	color: white;
+}
+.wdd{
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 5px;
+	margin: 15px;
+	font-weight: normal;
+	text-decoration-line:underline;
+}
+
+.card{
+	border: 1px solid black;
+	margin: 20px 20px;
+	border-radius: 5px ;
+}
+
+.card h2{
+	background-color: rgb(97, 82, 63);
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	font-size: medium;
+}
+
+.card ul{
+	list-style: none;
+	text-align: center;
+}
+
+footer{
+	background-color: rgb(97, 82, 63);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+.country-flag{
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 2px;
+}

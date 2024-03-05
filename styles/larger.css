@@ -1,0 +1,10 @@
+@media (min-width: 680px){
+	.card-parent{
+		/*align-items: center;
+		justify-content: center; */
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+	
+
+}
