@@ -8,16 +8,20 @@
 
 
 	nav ul{
-		display: inline-flex;
+		display: flex;
 		width: 100%;
 		justify-content: center;
-		height: 50px;
+		align-items: center;
+		
 		
 	}
 
 	nav ul li a{
-		padding: 10px 80px;
-	}
+		margin-right: 10px;
+		margin-left: 10px;}
+		
+		
+	
 	
 
 	.card-parent{
